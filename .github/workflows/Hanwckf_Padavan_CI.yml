@@ -60,6 +60,9 @@ env:
     CONFIG_FIRMWARE_INCLUDE_OPENSSL_EC
     CONFIG_FIRMWARE_INCLUDE_XUPNPD
     CONFIG_FIRMWARE_INCLUDE_VLMCSD
+    CONFIG_FIRMWARE_INCLUDE_EAP_PEAP
+    CONFIG_FIRMWARE_INCLUDE_SOCAT
+    CONFIG_FIRMWARE_INCLUDE_SRELAY
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -75,8 +78,6 @@ jobs:
         include:
           - build_variant: "K2P"
             targets: "K2P_nano-5.0"
-          - build_variant: "NEWIFI-MINI"
-            targets: "NEWIFI-MINI"
     steps:
       - name: Checkout main            # 导入主分支
         uses: actions/checkout@main
