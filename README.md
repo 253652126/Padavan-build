@@ -12,9 +12,9 @@ ChongshengB_Padavan_CI 源码使用 [ChongshengB](https://github.com/chongshengB
 
 登录密码: admin
 
-IP地址: 192.168.2.1
+IP地址: 10.10.1.1
 
-WiFi名称: 2G: Padavan 5G: Padavan_5G
+WiFi名称: 2G: Black 5G: Personal
 
 WiFi密码: 1234567890
 
