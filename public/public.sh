@@ -13,7 +13,7 @@ wlan_guest_2g_ssid="Padavan_Guset"                  # 2G 访客无线名称
 wlan_guest_5g_ssid="Padavan_Guest_5G"               # 5G 访客无线名称
 wlan_2g_psk="1234567890"                            # 2G WIFI密码最少8位 空白为不设置
 wlan_5g_psk="1234567890"                            # 5G WIFI密码最少8位 空白为不设置
-version_time=$(date +%Y%m%d)                        # 更新时版本号时间: 2021
+version_time=$(date +%Y%m%d)                        # 更新时版本号时间: 202101
 default_file="./user/shared/defaults.h"             # 默认配置文件
 
 echo "修改用户名"
