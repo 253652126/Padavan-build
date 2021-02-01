@@ -48,8 +48,8 @@ jobs:
     strategy:
       matrix:
         include:
-          - build_variant: "K2P_nano-5.0"
-            targets: "K2P"
+          - build_variant: "K2P"
+            targets: "K2P_nano-5.0"
           - build_variant: "NEWIFI3"
             targets: "NEWIFI3"
     steps:
