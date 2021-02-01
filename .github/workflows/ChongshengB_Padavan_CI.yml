@@ -50,6 +50,8 @@ jobs:
         include:
           - build_variant: "K2P_nano-5.0"
             targets: "K2P"
+          - build_variant: "NEWIFI3"
+            targets: "NEWIFI3"
     steps:
       - name: Checkout main            # 导入主分支
         uses: actions/checkout@main
