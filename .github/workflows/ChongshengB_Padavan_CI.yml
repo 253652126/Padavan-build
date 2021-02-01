@@ -52,6 +52,8 @@ jobs:
             targets: "K2P_nano-5.0"
           - build_variant: "NEWIFI3"
             targets: "NEWIFI3"
+          - build_variant: "RM2100"
+            targets: "RM2100"
     steps:
       - name: Checkout main            # 导入主分支
         uses: actions/checkout@main
