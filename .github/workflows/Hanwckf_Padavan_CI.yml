@@ -49,6 +49,8 @@ jobs:
         include:
           - build_variant: "NEWIFI-MINI"
             targets: "NEWIFI-MINI"
+          - build_variant: "K2P"
+            targets: "K2P_nano-5.0"
     steps:
       - name: Checkout main            # 导入主分支
         uses: actions/checkout@main
