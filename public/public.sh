@@ -6,7 +6,7 @@
 
 user_name="admin"                                   # 用户名
 user_password="admin"                               # 登录密码
-lan_ip="10.10.1"                                    # LAN 地址 别写后面的 .1
+lan_ip="192.168.2"                                    # LAN 地址 别写后面的 .1
 wlan_2g_ssid="Black"                                # 2G 无线名称
 wlan_5g_ssid="Personal"                             # 5G 无线名称
 wlan_guest_2g_ssid="Padavan_Guset"                  # 2G 访客无线名称
