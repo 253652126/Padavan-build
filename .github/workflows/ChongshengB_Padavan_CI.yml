@@ -54,8 +54,6 @@ jobs:
             targets: "NEWIFI3"
           - build_variant: "RM2100"
             targets: "RM2100"
-          - build_variant: "NEWIFI-MINI"
-            targets: "NEWIFI-MINI"
     steps:
       - name: Checkout main            # 导入主分支
         uses: actions/checkout@main
