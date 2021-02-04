@@ -26,6 +26,8 @@ env:
   toolchain_dir: /opt/rt-n56u/toolchain-mipsel/toolchain-3.4.x  # 工具链目录
   toolchain_pkg: mipsel-linux-uclibc.tar.xz
   toolchain_url: https://github.com/TurBoTse/padavan-toolchain/releases/download/v1.0
+ 
+ 
   #启用插件
   #ENABLED_CFG: |
     #CONFIG_FIRMWARE_INCLUDE_LANG_CN
@@ -54,6 +56,8 @@ jobs:
             targets: "NEWIFI3"
           - build_variant: "RM2100"
             targets: "RM2100"
+          - build_variant: "NEWIFI-MINI"
+            targets: "NEWIFI-MINI"
     steps:
       - name: Checkout main            # 导入主分支
         uses: actions/checkout@main
