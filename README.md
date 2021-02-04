@@ -14,7 +14,7 @@ ChongshengB_Padavan_CI 源码使用 [ChongshengB](https://github.com/chongshengB
 
 IP地址: 10.10.1.1
 
-WiFi名称: 2G: Black 5G: Personal
+WiFi名称: 2G: Padavan 5G: Padavan_5G
 
 WiFi密码: 1234567890
 
