@@ -1456,8 +1456,6 @@ function removeFromLocalStorage(name){
 }
 //WEB自定义菜单
 var w_ai = '<% nvram_get_x("", "w_ai"); %>';
-var w_vpn_s = '<% nvram_get_x("", "w_vpn_s"); %>';
-var w_vpn_c = '<% nvram_get_x("", "w_vpn_c"); %>';
 var w_wnet = '<% nvram_get_x("", "w_wnet"); %>';
 var w_sys = '<% nvram_get_x("", "w_sys"); %>';
 var w_usb = '<% nvram_get_x("", "w_usb"); %>';
@@ -1472,14 +1470,6 @@ var w_adbyby = '<% nvram_get_x("", "w_adbyby"); %>';
 if (w_ai==0){
 	menuL1_link[2] = "";
 	menuL1_title[2] = "";
-}
-if (w_vpn_s==0){
-	menuL1_link[3] = "";
-	menuL1_title[3] = "";
-}
-if (w_vpn_c==0){
-	menuL1_link[4] = "";
-	menuL1_title[4] = "";
 }
 if (w_wnet==0){
 	menuL1_link[5] = "";
