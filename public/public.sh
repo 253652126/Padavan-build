@@ -26,16 +26,16 @@ echo "修改 LAN IP 地址"
 sed -i "s/192.168.2/$lan_ip/g" $default_file
 
 echo "修改 2G 无线名称"
-sed -i 's/DEF_WLAN_2G_SSID	BOARD_PID "_%s"/DEF_WLAN_2G_SSID	"'$wlan_2g_ssid'"/g' $default_file
+sed -i 's/DEF_WLAN_2G_SSID	BOARD_PID "_%s"/DEF_WLAN_2G_SSID	"  '$wlan_2g_ssid'"/g' $default_file
 
 echo "修改 5G 无线名称"
-sed -i 's/DEF_WLAN_5G_SSID	BOARD_PID "_5G_%s"/DEF_WLAN_5G_SSID	"'$wlan_5g_ssid'"/g' $default_file
+sed -i 's/DEF_WLAN_5G_SSID	BOARD_PID "_5G_%s"/DEF_WLAN_5G_SSID	"   '$wlan_5g_ssid'"/g' $default_file
 
 echo "修改 2G 访客无线名称"
-sed -i 's/DEF_WLAN_2G_GSSID	BOARD_PID "_GUEST_%s"/DEF_WLAN_2G_GSSID	"'$wlan_guest_2g_ssid'"/g' $default_file
+sed -i 's/DEF_WLAN_2G_GSSID	BOARD_PID "_GUEST_%s"/DEF_WLAN_2G_GSSID	"  '$wlan_guest_2g_ssid'"/g' $default_file
 
 echo "修改 5G 访客无线名称"
-sed -i 's/DEF_WLAN_5G_GSSID	BOARD_PID "_GUEST_5G_%s"/DEF_WLAN_5G_GSSID	"'$wlan_guest_5g_ssid'"/g' $default_file
+sed -i 's/DEF_WLAN_5G_GSSID	BOARD_PID "_GUEST_5G_%s"/DEF_WLAN_5G_GSSID	"  '$wlan_guest_5g_ssid'"/g' $default_file
 
 echo "修改 2.4GHz WIFI 密码"
 sed -i 's/DEF_WLAN_2G_PSK		"1234567890"/DEF_WLAN_2G_PSK		"'$wlan_2g_psk'"/g' $default_file
