@@ -589,8 +589,8 @@ if (found_app_wyy()){
 } else menuL2_link.push("");
 
 //Level 1 Menu in Gateway, Router mode
-menuL1_title = new Array("", "<#menu1#>", "", "", "", "<#menu4#>", "<#menu5_8#>", "<#menu5#>");
-menuL1_link = new Array("", "index.asp", "", "", "", "Main_TrafficMonitor_realtime.asp", "Advanced_System_Info.asp", "as.asp");
+menuL1_title = new Array("", "<#menu1#>", "", "<#menu2#>", "<#menu6#>", "<#menu4#>", "<#menu5_8#>", "<#menu5#>");
+menuL1_link = new Array("", "index.asp", "", "vpnsrv.asp", "vpncli.asp", "Main_TrafficMonitor_realtime.asp", "Advanced_System_Info.asp", "as.asp");
 menuL1_icon = new Array("", "icon-home", "icon-hdd", "icon-retweet", "icon-globe", "icon-tasks", "icon-random", "icon-wrench");
 
 function show_menu(L1, L2, L3){
@@ -1456,6 +1456,8 @@ function removeFromLocalStorage(name){
 }
 //WEB自定义菜单
 var w_ai = '<% nvram_get_x("", "w_ai"); %>';
+var w_vpn_s = '<% nvram_get_x("", "w_vpn_s"); %>';
+var w_vpn_c = '<% nvram_get_x("", "w_vpn_c"); %>';
 var w_wnet = '<% nvram_get_x("", "w_wnet"); %>';
 var w_sys = '<% nvram_get_x("", "w_sys"); %>';
 var w_usb = '<% nvram_get_x("", "w_usb"); %>';
@@ -1470,6 +1472,14 @@ var w_adbyby = '<% nvram_get_x("", "w_adbyby"); %>';
 if (w_ai==0){
 	menuL1_link[2] = "";
 	menuL1_title[2] = "";
+}
+if (w_vpn_s==0){
+	menuL1_link[3] = "";
+	menuL1_title[3] = "";
+}
+if (w_vpn_c==0){
+	menuL1_link[4] = "";
+	menuL1_title[4] = "";
 }
 if (w_wnet==0){
 	menuL1_link[5] = "";
