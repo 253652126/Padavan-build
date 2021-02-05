@@ -19,15 +19,3 @@ WiFi名称: 2G: Padavan 5G: Padavan_5G
 WiFi密码: 1234567890
 
 
-编译脚本带有启用和禁用插件设置 ENABLED_CFG 为启用 DISABLED_CFG 为禁用 ( 先执行这项再执行自定义的 )
-
-示例:
-
-          ENABLED_CFG: |
-            CONFIG_FIRMWARE_INCLUDE_LANG_CN
-            CONFIG_FIRMWARE_ENABLE_IPV6
-          DISABLED_CFG: |
-            CONFIG_FIRMWARE_INCLUDE_LANG_UK
-            CONFIG_FIRMWARE_INCLUDE_VLMCSD
-            CONFIG_FIRMWARE_INCLUDE_TTYD
-
