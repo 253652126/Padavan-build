@@ -6,7 +6,7 @@
 
 Hanwckf_Padavan_CI 源码使用 [Hanwckf](https://github.com/hanwckf/rt-n56u.git)
 
-ChongshengB_Padavan_CI 源码使用 [ChongshengB](https://github.com/chongshengB/rt-n56u.git) ( 已修复自定义菜单语言和英文界面下不能重置 )
+ChongshengB_Padavan_CI 源码使用 [ChongshengB](https://github.com/chongshengB/rt-n56u.git) 
 
 用户名: admin
 
